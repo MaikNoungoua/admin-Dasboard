@@ -16,8 +16,8 @@ body{
 button{
     background-color: #0ea5e9;
     color: #f8fafc;
-    border-radius: 15px;
-    height: 50px;
+    border-radius: 45px;
+    height: 40px;
     width: 100px;
     font-size: larger;
     font-weight: 600;
@@ -115,7 +115,8 @@ input{
 
 #quad1{
     display: flex;
-    padding-top:20px;
+    padding-top:30px;
+    padding-left:20px;
     flex-direction: row;
     min-width: 70%;
     min-height: 100%;
@@ -129,18 +130,22 @@ input{
     gap: 20px;
     min-width: 30%;
     min-height: 100%;
-    padding-left: 50px;
+    padding-left: 120px;
 }
 
 .content-header1{
-    font-size: xx-large;
-    font-weight: 600;
-    min-width: 200px;
-    padding-left: 30px;
-
+    font-size: 25px;
+    font-weight: 900;
+    max-width: 200px;
+}
+.content-search-header1{
+    padding-top: 5px;
 }
 
-
+#search_bar{
+    height:30px;
+    font-size: medium;
+}
 #quad3{
     display: flex;
     flex-direction: row;
@@ -156,7 +161,7 @@ input{
     gap: 30px;
     min-width: 40%;
     min-height: 100%;
-    padding-left: 180px;
+    padding-left: 260px;
 }
 
 .prof-pic{
@@ -337,4 +342,6 @@ input{
 #trending4{
     margin-top: 12px;
     background-image:url(./icons/profile-avatar.jpeg);
+    height: 5rem;
+    width: 5rem;
 }
