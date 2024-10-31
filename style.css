@@ -166,8 +166,8 @@ input{
 
 .prof-pic{
     background-image:url(./icons/profile-avatar.jpeg); 
-    height: 50%;
-    width: 10%;
+    height: 5rem;
+    width: 5rem;
     margin: auto;
     border-radius: 50%;
     background-size: 100%;
@@ -177,7 +177,7 @@ input{
 
 .welcome{
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
     flex-direction: column;
     width: 80%;
     justify-items: center;
